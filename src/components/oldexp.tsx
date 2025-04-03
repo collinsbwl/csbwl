@@ -1,7 +1,7 @@
 import { Accordion, Span, Box, Container, Center } from "@chakra-ui/react";
 import { FadeIn } from "animations/fade-in";
 
-const experience: React.FC = () => {
+const oldexp: React.FC = () => {
   return (
     <Accordion.Root collapsible defaultValue={[""]}>
       {items.map((item, index) => (
@@ -35,5 +35,5 @@ const items = [
   { value: "c", title: "Sustainable Sort", text: "Temp..." },
 ];
 
-export default experience;
+export default oldexp;
 

@@ -15,7 +15,7 @@ const header: React.FC = () => {
       </Box>
       </FadeIn>
     </Box>
-  );
-};
+  )
+}
 
-export default header;
+export default header
