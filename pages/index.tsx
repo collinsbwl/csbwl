@@ -1,5 +1,8 @@
 import { ChakraProvider, Container, defaultSystem } from "@chakra-ui/react";
 import Header from "@/components/header";
+import AboutMe from "@/components/aboutme";
+import Projects from "@/components/projects";
+
 import { Button, HStack } from "@chakra-ui/react";
 import Head from "next/head";
 
@@ -11,9 +14,10 @@ export default function Page() {
         <meta name="description" content="portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container maxWidth="container.xl" centerContent>
+      <Container maxWidth="container.md" centerContent>
         <Header />
-        <h1>Hello, Next.js!</h1>
+        <AboutMe />
+        <Projects />
       </Container>
     </ChakraProvider>
   );

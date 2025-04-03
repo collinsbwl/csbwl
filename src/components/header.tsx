@@ -1,19 +1,19 @@
-import { Flex, Container, Spacer, Box } from "@chakra-ui/react";
+import { Flex, Container, Box } from "@chakra-ui/react";
 // import { ColorModeButton } from "@/components/ui/color-mode";
 import Toggle from "@/components/toggletheme";
+import { FadeIn } from "animations/fade-in";
 
 const header: React.FC = () => {
   return (
-    <Box position="fixed" top="0" zIndex="999" w="full">
-      <Container maxWidth="container.lg" pl={4} pr={4} pt={8} pb={2}>
-        <Flex alignItems="center" h="3.5rem">
-          <Spacer />
-          <Flex gap="3">
-            {/* <ColorModeButton /> */}
-            <Toggle />
+    <Box position="fixed" right="0" top="0" zIndex="999">
+      <FadeIn>
+        <Box mr={20} pl={20} mt={20} w="fit-content">
+            <Flex gap="3">
+              {/* <ColorModeButton /> */}
+              <Toggle />
           </Flex>
-        </Flex>
-      </Container>
+      </Box>
+      </FadeIn>
     </Box>
   );
 };
