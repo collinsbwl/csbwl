@@ -7,15 +7,20 @@ const header: React.FC = () => {
   return (
     <Box position="fixed" right="0" top="0" zIndex="999">
       <FadeIn>
-        <Box mr={20} pl={20} mt={20} w="fit-content">
-            <Flex gap="3">
-              {/* <ColorModeButton /> */}
-              <Toggle />
+        <Box 
+          mr={{ base: 4, md: 8, lg: 16 }} 
+          pl={{ base: 4, md: 8, lg: 16 }}
+          mt={{ base: 8, md: 12, lg: 16 }}
+          w="fit-content"
+        >
+          <Flex gap="3">
+            {/* <ColorModeButton /> */}
+            <Toggle />
           </Flex>
-      </Box>
+        </Box>
       </FadeIn>
     </Box>
-  )
-}
+  );
+};
 
-export default header
+export default header;

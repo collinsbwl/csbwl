@@ -2,9 +2,9 @@ import { ChakraProvider, Container, defaultSystem } from "@chakra-ui/react";
 import Header from "@/components/header";
 import AboutMe from "@/components/aboutme";
 import Projects from "@/components/projects";
+import Oldexp from "@/components/oldexp";
 import Experience from "@/components/experience";
 
-import { Button, HStack } from "@chakra-ui/react";
 import Head from "next/head";
 
 export default function Page() {
@@ -16,11 +16,18 @@ export default function Page() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Container maxWidth="container.lg" centerContent pt={20} mr={40} ml={40} gap={5}>
+      <Container
+        maxWidth="container.lg"
+        centerContent
+        px={{ base: 4, md: 8, lg: 16 }}
+        pt={{ base: 16, md: 20 }}
+        gap={5}
+      >
         <AboutMe />
         <Experience />
+        <Oldexp />
         <Projects />
       </Container>
     </ChakraProvider>
-  )
+  );
 }
