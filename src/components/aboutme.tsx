@@ -1,22 +1,8 @@
-import {
-  IconButton,
-  Heading,
-  Flex,
-  Container,
-  Icon,
-  Box,
-  Link,
-  Em,
-  Text,
-  Button,
-  Mark,
-} from "@chakra-ui/react";
+import { Heading, Flex, Box, Link, Em, Text, Mark } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin, FaUniversity } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FadeIn } from "animations/fade-in";
-
-// import { ColorModeButton } from "@/components/ui/color-mode";
 
 const aboutme: React.FC = () => {
   return (
@@ -60,7 +46,7 @@ const aboutme: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CIBC, Toronto, ON
+                CIBC Cloud Engineering, Toronto ON
               </Link>
             </Text>
 
@@ -82,7 +68,6 @@ const aboutme: React.FC = () => {
               <Em>System Architecture</Em>, and <Em>Rainy Weather</Em>
             </Text>
           </Box>
-  
         </Flex>
       </FadeIn>
     </Box>

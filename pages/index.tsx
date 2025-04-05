@@ -3,8 +3,8 @@ import Header from "@/components/header";
 import AboutMe from "@/components/aboutme";
 import Projects from "@/components/projects";
 import Experience from "@/components/experience";
+import GithubProj from "@/components/moreprojects";
 import Click from "@/components/ClickSpark";
-import { CardSpotlightEffect } from "@/components/CardSpotlightEffect";
 
 import Head from "next/head";
 
@@ -25,10 +25,11 @@ export default function Page() {
       >
         <Header />
 
-        <Container maxW="2xl" centerContent px={4} pt={20} gap={5}>
+        <Container maxW="3xl" centerContent px={4} pt={20} pb={20} gap={6}>
           <AboutMe />
-          <Experience />
           <Projects />
+          <GithubProj />
+          <Experience />
         </Container>
       </Click>
     </ChakraProvider>

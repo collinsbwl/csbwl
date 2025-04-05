@@ -1,30 +1,48 @@
-import { SimpleGrid, Card, Stack, Avatar, Button } from "@chakra-ui/react";
+import { Heading, Box, Stack, Flex } from "@chakra-ui/react";
+import { useState } from "react";
 import { FadeIn } from "animations/fade-in";
+import HoverImageCard from "./cards";
 
 const projects: React.FC = () => {
+  const cards = [
+    {
+      title: "Project Morrissette",
+      description: "Platform connecting Startups with Students",
+      defaultImg: "card-01.png",
+      hoverImg: "card-01-hover.png",
+    },
+    {
+      title: "Cloud Architecture AI",
+      description: "Multimodal machine learning systems",
+      defaultImg: "card-01.png",
+      hoverImg: "card-01-hover.png",
+    },
+    {
+      title: "Performance Stock Exchange",
+      description: "AI research dashboards",
+      defaultImg: "card-01.png",
+      hoverImg: "card-01-hover.png",
+    },
+  ];
   return (
-    <FadeIn delay={0.6}>
-      <Stack gap="4" direction="column" wrap="wrap" align="flex-start">
-        <Card.Root width="320px" variant="subtle">
-          <Card.Body gap="2">
-            <Card.Title mb="2" fontSize="md">Project Morrissette</Card.Title>
-            <Card.Description>
-              Building multimodal machine learning systems to help filmmakers
-              streamline their creative proces.
-            </Card.Description>
-          </Card.Body>
-        </Card.Root>
-
-        <Card.Root width="320px" variant="subtle">
-          <Card.Body gap="2">
-            <Card.Title mb="2" fontSize="md">Performance Stock Exchange</Card.Title>
-            <Card.Description>
-              Data architecture and system design.
-            </Card.Description>
-          </Card.Body>
-        </Card.Root>
-      </Stack>
-    </FadeIn>
+    <Box w="full">
+      <FadeIn delay={0.6}>
+        <Heading fontSize="lg" color="grey" fontWeight="bold" pb="10px">
+          Highlights
+        </Heading>
+        <Stack gap="4" direction="row" wrap="wrap" alignItems="center">
+          {cards.map((card, index) => (
+            <HoverImageCard
+              key={index}
+              title={card.title}
+              description={card.description}
+              defaultImg={card.defaultImg}
+              hoverImg={card.hoverImg}
+            />
+          ))}
+        </Stack>
+      </FadeIn>
+    </Box>
   );
 };
 
