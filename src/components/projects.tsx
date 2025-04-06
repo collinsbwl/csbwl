@@ -7,24 +7,19 @@ const projects: React.FC = () => {
   const cards = [
     {
       title: "Project Morrissette",
-      description: "Platform connecting Startups with Students",
+      description:
+        "Platform connecting Startups with Students; lead by Ivey School of Business and Startups backed by YC & Sequoia Capital",
       defaultImg: "card-01.png",
       hoverImg: "card-01-hover.png",
       link: "https://www.westerns4s.ca",
     },
     {
-      title: "Cloud Architecture AI",
-      description: "Multimodal machine learning systems",
-      defaultImg: "card-01.png",
-      hoverImg: "card-01-hover.png",
+      title: "Chess Predictor",
+      description:
+        "Chess app that calculates every move evaluation using Stockfish analysis, Maia via lc0, and Lichess API",
+      defaultImg: "card-02.png",
+      hoverImg: "card-02-hover.png",
       link: "https://www.westerns4s.ca",
-    },
-    {
-      title: "Pinterest Case Study",
-      description: "AI research dashboards",
-      defaultImg: "card-01.png",
-      hoverImg: "card-01-hover.png",
-      link: "",
     },
   ];
   return (

@@ -32,7 +32,7 @@ const HoverImageCard: React.FC<HoverImageCardProps> = ({
       onMouseLeave={() => setIsHovered(false)}
     >
       <LinkOverlay href={link} target="_blank" rel="noopener noreferrer">
-        <Card.Body gap="2">
+        <Card.Body>
           <Card.Title fontSize="sm">{title}</Card.Title>
           <Card.Description>{description}</Card.Description>
         </Card.Body>

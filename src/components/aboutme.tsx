@@ -46,7 +46,7 @@ const aboutme: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CIBC Cloud Engineering, Toronto ON
+                CIBC Cloud Engineering, Toronto ON <LuExternalLink />
               </Link>
             </Text>
 
