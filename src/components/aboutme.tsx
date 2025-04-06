@@ -8,12 +8,12 @@ const aboutme: React.FC = () => {
   return (
     <Box w="full" zIndex="1">
       <FadeIn delay={0.4}>
-        <Flex direction="column" gap="3">
-          <Heading size="2xl" fontFamily="mono">
-            COLLIN SOBOWALE
-          </Heading>
+        <Flex direction="column" gap="4">
           <Box>
-            <Flex gap={2}>
+            <Heading size="2xl" fontFamily="mono">
+              COLLIN SOBOWALE
+            </Heading>
+            <Flex gap={2} pt="2">
               <Link
                 href="https://www.linkedin.com/in/collinsbwle"
                 target="_blank"
@@ -37,20 +37,9 @@ const aboutme: React.FC = () => {
               </Link>
             </Flex>
           </Box>
-          <Box>
-            <Text fontSize="sm">
-              Previously [at]{" "}
-              <Link
-                fontStyle="italic"
-                href="https://www.cibc.com/en/about-cibc/innovation/ai-business-impact.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CIBC Cloud Engineering, Toronto ON <LuExternalLink />
-              </Link>
-            </Text>
 
-            <Flex direction="row" fontSize="sm" pb={3}>
+          <Box>
+            {/* <Text fontSize="sm">
               Computer Science [at] the&nbsp;
               <Link
                 href="https://uwo.ca"
@@ -61,13 +50,41 @@ const aboutme: React.FC = () => {
               >
                 University of Western Ontario <LuExternalLink />
               </Link>
-            </Flex>
-
+            </Text> */}
             <Text fontSize="sm">
-              Passionate about <Em>Computer-Interaction Behaviour, {""}</Em>
-              <Em>System Architecture</Em>, and <Em>Rainy Weather</Em>
+              Previously [at]{" "}
+              <Link
+                fontStyle="italic"
+                href="https://www.cibc.com/en/about-cibc/innovation/ai-business-impact.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CIBC Cloud Engineering & AI, Toronto ON <LuExternalLink />
+              </Link>
+            </Text>
+            <Text fontSize="sm">
+              Building [at]{" "}
+              <Link
+                fontStyle="italic"
+                href="https://iveyproductsociety.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ivey School of Business Product Society <LuExternalLink />
+              </Link>
             </Text>
           </Box>
+
+          <Text fontSize="sm">
+            Passionate about <Em>Computer-Interaction Behaviour, {""}</Em>
+            <Em>System Architecture</Em>, and <Em>Research</Em>
+          </Text>
+
+          <Text fontSize="sm">
+            As someone with many passions, I believe in doing what you love. For
+            me, that’s connecting with people, discovering new places, and
+            enjoying rainy weather.
+          </Text>
         </Flex>
       </FadeIn>
     </Box>

@@ -1,10 +1,18 @@
 import { Heading, Box, Stack, Flex, Link } from "@chakra-ui/react";
 import { useState } from "react";
 import { FadeIn } from "animations/fade-in";
-import HoverImageCard from "./cards";
+import HoverImageCard from "./ui/cards";
 
 const projects: React.FC = () => {
   const cards = [
+    {
+      title: "Autumn",
+      description:
+        "Worked as a Product Intern building features for an End-of-Life marketplace that connects service providers with customers",
+      defaultImg: "card-01.png",
+      hoverImg: "card-01-hover.png",
+      link: "https://jessicaywang.co/autumn",
+    },
     {
       title: "Project Morrissette",
       description:
@@ -13,14 +21,22 @@ const projects: React.FC = () => {
       hoverImg: "card-01-hover.png",
       link: "https://www.westerns4s.ca",
     },
-    {
-      title: "Chess Predictor",
-      description:
-        "Chess app that calculates every move evaluation using Stockfish analysis, Maia via lc0, and Lichess API",
-      defaultImg: "card-02.png",
-      hoverImg: "card-02-hover.png",
-      link: "https://www.westerns4s.ca",
-    },
+    // {
+    //   title: "Performance Stock Exchange",
+    //   description:
+    //     "Chess app that calculates every move evaluation using Stockfish analysis, Maia via lc0, and Lichess API",
+    //   defaultImg: "card-02.png",
+    //   hoverImg: "card-02-hover.png",
+    //   link: "https://www.westerns4s.ca",
+    // },
+    // {
+    //   title: "Chess Predictor",
+    //   description:
+    //     "Chess app that calculates every move evaluation using Stockfish analysis, Maia via lc0, and Lichess API",
+    //   defaultImg: "card-02.png",
+    //   hoverImg: "card-02-hover.png",
+    //   link: "https://www.westerns4s.ca",
+    // },
   ];
   return (
     <Box w="full">

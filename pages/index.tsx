@@ -2,9 +2,9 @@ import { ChakraProvider, Container, defaultSystem } from "@chakra-ui/react";
 import Header from "@/components/header";
 import AboutMe from "@/components/aboutme";
 import Projects from "@/components/projects";
-import Experience from "@/components/experience";
-import GithubProj from "@/components/moreprojects";
-import Click from "@/components/ClickSpark";
+import Awards from "@/components/awards";
+import Footer from "@/components/footer";
+import Click from "@/components/ui/ClickSpark";
 
 import Head from "next/head";
 
@@ -25,11 +25,11 @@ export default function Page() {
       >
         <Header />
 
-        <Container maxW="3xl" centerContent px={4} pt={20} pb={20} gap={6}>
+        <Container maxW="3xl" centerContent px={4} pt={20} pb={5} gap={6}>
           <AboutMe />
           <Projects />
-          <GithubProj />
-          <Experience />
+          <Awards />
+          <Footer />
         </Container>
       </Click>
     </ChakraProvider>
