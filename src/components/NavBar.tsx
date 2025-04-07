@@ -3,7 +3,7 @@ import { Flex, Box } from "@chakra-ui/react";
 import ToggleTheme from "@/components/ToggleTheme";
 import { FadeIn } from "animations/fade-in";
 
-const Header: React.FC = () => {
+const NavBar: React.FC = () => {
   return (
     <Box position="fixed" right="0" top="0" zIndex="999">
       <FadeIn>
@@ -23,4 +23,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default NavBar;

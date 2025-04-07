@@ -1,5 +1,5 @@
 import { ChakraProvider, Container, defaultSystem } from "@chakra-ui/react";
-import Header from "@/components/Header";
+import NavBar from "@/components/NavBar";
 import AboutMe from "@/components/AboutMe";
 import Projects from "@/components/Projects";
 import Awards from "@/components/Awards";
@@ -23,7 +23,7 @@ export default function Page() {
         sparkCount={8}
         duration={400}
       >
-        <Header />
+        <NavBar />
 
         <Container maxW="3xl" centerContent px={4} pt={20} pb={5} gap={6}>
           <AboutMe />
