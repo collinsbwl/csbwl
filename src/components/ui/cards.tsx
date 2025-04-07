@@ -46,7 +46,11 @@ const HoverImageCard: React.FC<HoverImageCardProps> = ({
           /> */}
         </Box>
         </Card.Body>
-          <Card.Footer fontSize="sm" fontStyle="italic">
+          <Card.Footer fontSize="sm" fontStyle="italic"
+          fontWeight={isHovered ? "normal" : "light"}
+          transition="color 0.3s ease"
+
+          >
               {footerText}
           </Card.Footer>
       </LinkOverlay>

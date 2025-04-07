@@ -8,12 +8,12 @@ const aboutme: React.FC = () => {
   return (
     <Box w="full" zIndex="1">
       <FadeIn delay={0.4}>
-        <Flex direction="column" gap="4">
+        <Flex direction="column" gap="6">
           <Box>
             <Heading size="2xl" fontFamily="mono">
               COLLIN SOBOWALE
             </Heading>
-            <Flex gap={2} pt="2">
+            <Flex gap={2} pt="3">
               <Link
                 href="https://www.linkedin.com/in/collinsbwle"
                 target="_blank"

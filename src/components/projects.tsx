@@ -1,6 +1,7 @@
 import { Heading, Box, Stack, Flex, Link } from "@chakra-ui/react";
 import { useState } from "react";
 import { FadeIn } from "animations/fade-in";
+import { FadeInOut } from "animations/fade-in-out";
 import HoverImageCard from "./ui/cards";
 
 const projects: React.FC = () => {
@@ -52,25 +53,26 @@ const projects: React.FC = () => {
         <Heading fontSize="lg" color="grey" fontWeight="bold" pb="10px">
           Highlights
         </Heading>
-        <Stack
-          gap="4"
-          direction="row"
-          wrap="wrap"
-          justify="center"
-          align="center"
-        >
-          {cards.map((card, index) => (
+      </FadeIn>
+      <Stack
+        gap="4"
+        direction="row"
+        wrap="wrap"
+        justify="center"
+        align="center"
+      >
+        {cards.map((card, index) => (
+          <FadeInOut key={index} delay={0.6} stagger={index * 0.2}>
             <HoverImageCard
-              key={index}
               title={card.title}
               description={card.description}
               // defaultImg={card.defaultImg}
               link={card.link}
               footerText={card.footerText}
             />
-          ))}
-        </Stack>
-      </FadeIn>
+          </FadeInOut>
+        ))}
+      </Stack>
     </Box>
   );
 };
