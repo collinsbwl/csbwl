@@ -2,7 +2,7 @@ import { Heading, Box, Stack } from "@chakra-ui/react";
 // import { useState } from "react";
 import { FadeIn } from "animations/fade-in";
 import { FadeInOut } from "animations/fade-in-out";
-import HoverImageCard from "./ui/Cards";
+import HoverImageCard from "./ui/Card";
 
 const Projects: React.FC = () => {
   const cards = [
