@@ -4,7 +4,7 @@ import { FadeIn } from "animations/fade-in";
 const Award: React.FC = () => {
   return (
     <Box w="full">
-      <FadeIn delay={0.4}>
+      <FadeIn delay={1.4}>
         <Heading fontSize="lg" color="grey" fontWeight="bold">
           Awards
         </Heading>
