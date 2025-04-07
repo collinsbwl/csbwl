@@ -13,9 +13,7 @@ const awards: React.FC = () => {
             <List.Item>
               Continuing Admission Scholarship of Excellence ($24,000)
             </List.Item>
-            <List.Item>
-              Distinction Scholarship ($2,500)
-            </List.Item>
+            <List.Item>Distinction Scholarship ($2,500)</List.Item>
             <List.Item>
               1st Place - Bank of Montreal Tech Startup Advisory Case
               Competition

@@ -1,6 +1,5 @@
-import { Card, Image, Box, LinkBox, LinkOverlay } from "@chakra-ui/react";
+import { Card, Box, LinkBox, LinkOverlay } from "@chakra-ui/react";
 import { useState } from "react";
-
 
 interface HoverImageCardProps {
   title: string;
@@ -8,7 +7,7 @@ interface HoverImageCardProps {
   // defaultImg: string;
   bgImage?: string;
   link?: string;
-  footerText?: string; 
+  footerText?: string;
 }
 
 const HoverImageCard: React.FC<HoverImageCardProps> = ({
@@ -37,22 +36,23 @@ const HoverImageCard: React.FC<HoverImageCardProps> = ({
           <Card.Title fontSize="sm">{title}</Card.Title>
           <Card.Description>{description}</Card.Description>
           <Box>
-          {/* <Image
+            {/* <Image
             src={defaultImg}
             w="100%"
             h="auto"
             transform={isHovered ? "scale(1.05)" : "scale(1)"}
             transition="0.3s ease-in-out"
           /> */}
-        </Box>
+          </Box>
         </Card.Body>
-          <Card.Footer fontSize="sm" fontStyle="italic"
+        <Card.Footer
+          fontSize="sm"
+          fontStyle="italic"
           fontWeight={isHovered ? "normal" : "light"}
           transition="color 0.3s ease"
-
-          >
-              {footerText}
-          </Card.Footer>
+        >
+          {footerText}
+        </Card.Footer>
       </LinkOverlay>
     </LinkBox>
   );

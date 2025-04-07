@@ -1,5 +1,5 @@
 import { Heading, Box, Stack, Flex, Link } from "@chakra-ui/react";
-import { useState } from "react";
+// import { useState } from "react";
 import { FadeIn } from "animations/fade-in";
 import { FadeInOut } from "animations/fade-in-out";
 import HoverImageCard from "./ui/cards";
@@ -10,7 +10,7 @@ const projects: React.FC = () => {
       title: "Autumn",
       description:
         "Worked as a Product Intern building writing feature specs for an End-of-Life marketplace connecting service providers with customers",
-        // defaultImg: "card-01.png",
+      // defaultImg: "card-01.png",
       link: "https://jessicaywang.co/autumn",
       footerText: "Product Management • Product Strategy",
     },
@@ -18,7 +18,7 @@ const projects: React.FC = () => {
       title: "Pinterest Case Study",
       description:
         "Ideated and built a new 'Discovery' feature for Pinterest maximixing engagement; pitched to their Chief Product Officer",
-        // defaultImg: "card-02.png",
+      // defaultImg: "card-02.png",
       link: "https://tinyurl.com/3bk8ntde",
       footerText: "Product Management • Product Strategy",
     },
@@ -26,7 +26,7 @@ const projects: React.FC = () => {
       title: "Project Morrissette",
       description:
         "Platform connecting Startups with Students; led by Ivey School of Business and Startups backed by YC & Sequoia Capital",
-        // defaultImg: "card-03.png",
+      // defaultImg: "card-03.png",
       link: "https://www.westerns4s.ca",
       footerText: "Launching Fall 2025 • See MVP",
     },

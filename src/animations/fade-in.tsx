@@ -13,11 +13,8 @@ interface FadeInProps {
 
 export const FadeIn: React.FC<FadeInProps> = ({ children, delay = 0 }) => {
   return (
-    <Box
-      animation={`${fadeIn} 1s ease-out ${delay}s forwards`}
-      opacity={0}
-    >
+    <Box animation={`${fadeIn} 1s ease-out ${delay}s forwards`} opacity={0}>
       {children}
     </Box>
   );
-}; 
+};

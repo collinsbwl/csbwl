@@ -14,7 +14,11 @@ interface FadeInOutProps {
   stagger?: number;
 }
 
-export const FadeInOut: React.FC<FadeInOutProps> = ({ children, delay = 0, stagger = 0 }) => {
+export const FadeInOut: React.FC<FadeInOutProps> = ({
+  children,
+  delay = 0,
+  stagger = 0,
+}) => {
   return (
     <Box
       animation={`${fadeInOut} 10s ease-in-out ${delay + stagger}s infinite`}
@@ -23,4 +27,4 @@ export const FadeInOut: React.FC<FadeInOutProps> = ({ children, delay = 0, stagg
       {children}
     </Box>
   );
-}; 
+};

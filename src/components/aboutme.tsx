@@ -1,5 +1,5 @@
 import { Heading, Flex, Box, Link, Em, Text, Mark } from "@chakra-ui/react";
-import { FaGithub, FaLinkedin, FaUniversity } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FadeIn } from "animations/fade-in";
@@ -39,7 +39,7 @@ const aboutme: React.FC = () => {
           </Box>
 
           <Box>
-          <Text fontSize="sm">
+            <Text fontSize="sm">
               Previously [at]{" "}
               <Link
                 fontStyle="italic"
@@ -47,10 +47,11 @@ const aboutme: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CIBC Cloud Engineering & Artificial Intelligence, Toronto, ON <LuExternalLink />
+                CIBC Cloud Engineering & Artificial Intelligence, Toronto, ON{" "}
+                <LuExternalLink />
               </Link>
             </Text>
-            
+
             <Text fontSize="sm">
               Computer Science [at] the&nbsp;
               <Link
@@ -63,7 +64,7 @@ const aboutme: React.FC = () => {
                 University of Western Ontario <LuExternalLink />
               </Link>
             </Text>
-            
+
             <Text fontSize="sm">
               Building [at]{" "}
               <Link
