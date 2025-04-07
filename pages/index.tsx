@@ -1,9 +1,9 @@
 import { ChakraProvider, Container, defaultSystem } from "@chakra-ui/react";
-import NavBar from "components/NavBar";
-import AboutMe from "components/AboutMe";
-import Projects from "components/Projects";
-import Awards from "components/Awards";
-import Footer from "components/Footer";
+import NavBar from "@/components/NavBar";
+import AboutMe from "@/components/AboutMe";
+import Projects from "@/components/Projects";
+import Awards from "@/components/Awards";
+import Footer from "@/components/AboutMe";
 import Click from "components/ui/ClickSpark";
 
 import Head from "next/head";
