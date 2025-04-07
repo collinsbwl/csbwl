@@ -1,7 +1,7 @@
 import { Heading, Flex, Box, List, Text } from "@chakra-ui/react";
 import { FadeIn } from "animations/fade-in";
 
-const awards: React.FC = () => {
+const Awards: React.FC = () => {
   return (
     <Box w="full">
       <FadeIn delay={0.4}>
@@ -43,4 +43,4 @@ const awards: React.FC = () => {
   );
 };
 
-export default awards;
+export default Awards;

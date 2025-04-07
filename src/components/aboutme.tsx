@@ -4,7 +4,7 @@ import { LuExternalLink } from "react-icons/lu";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FadeIn } from "animations/fade-in";
 
-const aboutme: React.FC = () => {
+const AboutMe: React.FC = () => {
   return (
     <Box w="full" zIndex="1">
       <FadeIn delay={0.4}>
@@ -94,4 +94,4 @@ const aboutme: React.FC = () => {
   );
 };
 
-export default aboutme;
+export default AboutMe;

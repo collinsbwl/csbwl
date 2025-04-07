@@ -1,9 +1,9 @@
 import { Flex, Box } from "@chakra-ui/react";
 // import { ColorModeButton } from "@/components/ui/color-mode";
-import Toggle from "@/components/toggletheme";
+import ToggleTheme from "@/components/ToggleTheme";
 import { FadeIn } from "animations/fade-in";
 
-const header: React.FC = () => {
+const Header: React.FC = () => {
   return (
     <Box position="fixed" right="0" top="0" zIndex="999">
       <FadeIn>
@@ -15,7 +15,7 @@ const header: React.FC = () => {
         >
           <Flex gap="3">
             {/* <ColorModeButton /> */}
-            <Toggle />
+            <ToggleTheme />
           </Flex>
         </Box>
       </FadeIn>
@@ -23,4 +23,4 @@ const header: React.FC = () => {
   );
 };
 
-export default header;
+export default Header;

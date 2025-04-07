@@ -1,7 +1,7 @@
 import { Link, Box, Text, Separator } from "@chakra-ui/react";
 import { FadeIn } from "animations/fade-in";
 
-const header: React.FC = () => {
+const Footer: React.FC = () => {
   return (
     <Box w="full" pt="6">
       <FadeIn>
@@ -21,4 +21,4 @@ const header: React.FC = () => {
   );
 };
 
-export default header;
+export default Footer;

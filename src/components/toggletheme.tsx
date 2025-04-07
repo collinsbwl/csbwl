@@ -4,7 +4,7 @@ import { ClientOnly, IconButton, Skeleton } from "@chakra-ui/react";
 import { useColorMode } from "@/components/ui/color-mode";
 import { LuCloudMoonRain, LuCloudSunRain } from "react-icons/lu";
 
-const toggletheme: React.FC = () => {
+const ToggleTheme: React.FC = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <ClientOnly fallback={<Skeleton boxSize="8" />}>
@@ -15,4 +15,4 @@ const toggletheme: React.FC = () => {
   );
 };
 
-export default toggletheme;
+export default ToggleTheme;
