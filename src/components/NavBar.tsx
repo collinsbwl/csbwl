@@ -1,6 +1,6 @@
 import { Flex, Box } from "@chakra-ui/react";
 // import { ColorModeButton } from "@/components/ui/color-mode";
-import ToggleTheme from "../components/ToggleTheme";
+import ToggleTheme from "./ThemeToggle";
 import { FadeIn } from "animations/fade-in";
 
 const NavBar: React.FC = () => {
