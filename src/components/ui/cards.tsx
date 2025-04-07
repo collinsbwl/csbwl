@@ -1,6 +1,7 @@
 import { Card, Image, Box, LinkBox, LinkOverlay } from "@chakra-ui/react";
 import { useState } from "react";
 
+
 interface HoverImageCardProps {
   title: string;
   description: string;
@@ -8,6 +9,7 @@ interface HoverImageCardProps {
   hoverImg: string;
   bgImage?: string;
   link?: string;
+  footerText?: string; 
 }
 
 const HoverImageCard: React.FC<HoverImageCardProps> = ({
@@ -17,6 +19,7 @@ const HoverImageCard: React.FC<HoverImageCardProps> = ({
   hoverImg,
   bgImage = "url('/noise.png')",
   link = "#",
+  footerText,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -55,6 +58,9 @@ const HoverImageCard: React.FC<HoverImageCardProps> = ({
             opacity={isHovered ? 1 : 0}
           />
         </Box>
+          <Card.Footer fontSize="sm" fontStyle="italic">
+              {footerText}
+          </Card.Footer>
       </LinkOverlay>
     </LinkBox>
   );

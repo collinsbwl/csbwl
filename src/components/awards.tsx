@@ -14,14 +14,17 @@ const awards: React.FC = () => {
               Continuing Admission Scholarship of Excellence ($24,000)
             </List.Item>
             <List.Item>
+              Distinction Scholarship ($2,500)
+            </List.Item>
+            <List.Item>
               1st Place - Bank of Montreal Tech Startup Advisory Case
               Competition
             </List.Item>
-            <List.Item>Best Mockup - Notion ProdX Case Competition</List.Item>
             <List.Item>
               Finalist - Deloitte National Strategy & Operations Case
               Competition
             </List.Item>
+            <List.Item>Best Mockup - Notion ProdX Case Competition</List.Item>
           </List.Root>
         </Flex>
         <Flex justifyContent="center">

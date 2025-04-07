@@ -39,7 +39,19 @@ const aboutme: React.FC = () => {
           </Box>
 
           <Box>
-            {/* <Text fontSize="sm">
+          <Text fontSize="sm">
+              Previously [at]{" "}
+              <Link
+                fontStyle="italic"
+                href="https://www.cibc.com/en/about-cibc/innovation/ai-business-impact.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CIBC Cloud Engineering & Artificial Intelligence, Toronto, ON <LuExternalLink />
+              </Link>
+            </Text>
+            
+            <Text fontSize="sm">
               Computer Science [at] the&nbsp;
               <Link
                 href="https://uwo.ca"
@@ -50,18 +62,8 @@ const aboutme: React.FC = () => {
               >
                 University of Western Ontario <LuExternalLink />
               </Link>
-            </Text> */}
-            <Text fontSize="sm">
-              Previously [at]{" "}
-              <Link
-                fontStyle="italic"
-                href="https://www.cibc.com/en/about-cibc/innovation/ai-business-impact.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CIBC Cloud Engineering & AI, Toronto ON <LuExternalLink />
-              </Link>
             </Text>
+            
             <Text fontSize="sm">
               Building [at]{" "}
               <Link
