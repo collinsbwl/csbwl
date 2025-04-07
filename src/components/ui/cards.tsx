@@ -5,8 +5,7 @@ import { useState } from "react";
 interface HoverImageCardProps {
   title: string;
   description: string;
-  defaultImg: string;
-  hoverImg: string;
+  // defaultImg: string;
   bgImage?: string;
   link?: string;
   footerText?: string; 
@@ -15,8 +14,7 @@ interface HoverImageCardProps {
 const HoverImageCard: React.FC<HoverImageCardProps> = ({
   title,
   description,
-  defaultImg,
-  hoverImg,
+  // defaultImg,
   bgImage = "url('/noise.png')",
   link = "#",
   footerText,
@@ -38,26 +36,16 @@ const HoverImageCard: React.FC<HoverImageCardProps> = ({
         <Card.Body>
           <Card.Title fontSize="sm">{title}</Card.Title>
           <Card.Description>{description}</Card.Description>
-        </Card.Body>
-
-        <Box display="grid">
-          <Image
+          <Box>
+          {/* <Image
             src={defaultImg}
             w="100%"
             h="auto"
-            gridArea="1/1"
+            transform={isHovered ? "scale(1.05)" : "scale(1)"}
             transition="0.3s ease-in-out"
-            opacity={isHovered ? 0 : 1}
-          />
-          <Image
-            src={hoverImg}
-            w="100%"
-            h="auto"
-            gridArea="1/1"
-            transition="0.3s ease-in-out"
-            opacity={isHovered ? 1 : 0}
-          />
+          /> */}
         </Box>
+        </Card.Body>
           <Card.Footer fontSize="sm" fontStyle="italic">
               {footerText}
           </Card.Footer>

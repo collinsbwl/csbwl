@@ -9,8 +9,7 @@ const projects: React.FC = () => {
       title: "Autumn",
       description:
         "Worked as a Product Intern building writing feature specs for an End-of-Life marketplace connecting service providers with customers",
-        defaultImg: "card-01.png",
-        hoverImg: "card-01-hover.png",
+        // defaultImg: "card-01.png",
       link: "https://jessicaywang.co/autumn",
       footerText: "Product Management • Product Strategy",
     },
@@ -18,8 +17,7 @@ const projects: React.FC = () => {
       title: "Pinterest Case Study",
       description:
         "Ideated and built a new 'Discovery' feature for Pinterest maximixing engagement; pitched to their Chief Product Officer",
-        defaultImg: "card-03.png",
-        hoverImg: "card-03-hover.png",
+        // defaultImg: "card-02.png",
       link: "https://tinyurl.com/3bk8ntde",
       footerText: "Product Management • Product Strategy",
     },
@@ -27,17 +25,15 @@ const projects: React.FC = () => {
       title: "Project Morrissette",
       description:
         "Platform connecting Startups with Students; led by Ivey School of Business and Startups backed by YC & Sequoia Capital",
-        defaultImg: "card-03.png",
-        hoverImg: "card-03-hover.png",
+        // defaultImg: "card-03.png",
       link: "https://www.westerns4s.ca",
-      footerText: "Launching Fall 2025 (MVP Linked)",
+      footerText: "Launching Fall 2025 • See MVP",
     },
     {
       title: "Next Den",
       description:
-        "Developing a proprietary algorithm for an app that lets users invest based on NBA player performance",
-      defaultImg: "card-03.png",
-      hoverImg: "card-03-hover.png",
+        "Full-stack rental property search platform engineered and deployed using Python-based analytics dashboard",
+      // defaultImg: "card-04.png",
       link: "https://github.com/RyanCasty/NextDen",
       footerText: "Software Development • Hack Western",
     },
@@ -47,7 +43,6 @@ const projects: React.FC = () => {
     //   description:
     //     "Chess app that calculates every move evaluation using Stockfish analysis, Maia via lc0, and Lichess API",
     //   defaultImg: "card-02.png",
-    //   hoverImg: "card-02-hover.png",
     //   link: "https://www.westerns4s.ca",
     // },
   ];
@@ -69,8 +64,7 @@ const projects: React.FC = () => {
               key={index}
               title={card.title}
               description={card.description}
-              defaultImg={card.defaultImg}
-              hoverImg={card.hoverImg}
+              // defaultImg={card.defaultImg}
               link={card.link}
               footerText={card.footerText}
             />
