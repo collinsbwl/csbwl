@@ -1,4 +1,4 @@
-import { Heading, Flex, Box, Link, Em, Text, Mark } from "@chakra-ui/react";
+import { Heading, Flex, Box, Link, Em, Text } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
 import { RiTwitterXFill } from "react-icons/ri";

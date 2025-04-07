@@ -1,4 +1,4 @@
-import { Heading, Box, Stack, Flex, Link } from "@chakra-ui/react";
+import { Heading, Box, Stack } from "@chakra-ui/react";
 // import { useState } from "react";
 import { FadeIn } from "animations/fade-in";
 import { FadeInOut } from "animations/fade-in-out";
