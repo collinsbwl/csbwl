@@ -95,7 +95,7 @@ const AboutMe: React.FC = () => {
           <Text fontSize="sm">
             As someone with many passions, I believe in doing what you love. For
             me, that’s connecting with people, discovering new places, and
-            enjoying rainy weather.
+            enjoying rainy weather
           </Text>
         </Flex>
       </FadeIn>

@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
     {
       title: "Pinterest Case Study",
       description:
-        "Ideated and built a new 'Discovery' feature for Pinterest maximizing user engagement; pitched to their Chief Product Officer",
+        "Ideated and designed a 'Discovery' feature for Pinterest maximizing engagement; received feedback from their Chief Product Officer",
       // defaultImg: "card-02.png",
       link: "https://tinyurl.com/5heuy7zw",
       footerText: "Product Management • Product Strategy",
