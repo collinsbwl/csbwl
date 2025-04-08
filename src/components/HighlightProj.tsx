@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
     {
       title: "Pinterest Case Study",
       description:
-        "Ideated and built a new 'Discovery' feature for Pinterest maximixing engagement; pitched to their Chief Product Officer",
+        "Ideated and built a new 'Discovery' feature for Pinterest maximizing user engagement; pitched to their Chief Product Officer",
       // defaultImg: "card-02.png",
       link: "https://tinyurl.com/3bk8ntde",
       footerText: "Product Management • Product Strategy",
@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
     {
       title: "Project Morrissette",
       description:
-        "Platform connecting Startups with Students; led by Ivey School of Business and Startups backed by YC & Sequoia Capital",
+        "Platform connecting startups supported by accelerators & VC funds with students; led by Ivey School of Business & 2 Founders ",
       // defaultImg: "card-03.png",
       link: "https://www.westerns4s.ca",
       footerText: "Launching Fall 2025 • See MVP",
