@@ -9,10 +9,10 @@ const Projects: React.FC = () => {
     {
       title: "Autumn",
       description:
-        "Worked as a Product Intern building writing feature specs for an End-of-Life marketplace connecting service providers with customers",
+        "Worked as a Product Intern writing feature specs for an End-of-Life marketplace connecting service providers with customers",
       // defaultImg: "card-01.png",
       link: "https://jessicaywang.co/autumn",
-      footerText: "Product Management • Product Strategy",
+      footerText: "Product Engineering • Product Strategy",
     },
     {
       title: "Pinterest Case Study",

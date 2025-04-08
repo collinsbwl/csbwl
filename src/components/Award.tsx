@@ -10,10 +10,9 @@ const Award: React.FC = () => {
         </Heading>
         <Flex pl="40px" gap="5px" direction="column">
           <List.Root fontSize="sm" fontStyle="italic">
-            <List.Item>
-              Continuing Admission Scholarship of Excellence ($24,000)
-            </List.Item>
+            <List.Item>Continuing Admission Scholarships ($24,000)</List.Item>
             <List.Item>Distinction Scholarship ($2,500)</List.Item>
+            <List.Item>Distinction in English Writing Award</List.Item>
             <List.Item>
               1st Place - Bank of Montreal Tech Startup Advisory Case
               Competition
