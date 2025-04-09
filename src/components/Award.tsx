@@ -12,7 +12,6 @@ const Award: React.FC = () => {
           <List.Root fontSize="sm" fontStyle="italic">
             <List.Item>Continuing Admission Scholarships ($24,000)</List.Item>
             <List.Item>Distinction Scholarship ($2,500)</List.Item>
-            <List.Item>Distinction in English Writing Award</List.Item>
             <List.Item>
               1st Place - Bank of Montreal Tech Startup Advisory Case
               Competition
@@ -33,8 +32,8 @@ const Award: React.FC = () => {
             pt="20px"
             maxW="500px"
           >
-            Deeply thankful to everyone who supported to reaching these
-            milestones and the generous support provded by the donors
+            Deeply thankful to everyone who supported me in reaching these
+            milestones
           </Text>
         </Flex>
       </FadeIn>

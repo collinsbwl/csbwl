@@ -10,15 +10,13 @@ const Projects: React.FC = () => {
       title: "Autumn",
       description:
         "Worked as a Product Intern writing feature specs for an End-of-Life marketplace connecting service providers with customers",
-      // defaultImg: "card-01.png",
-      link: "https://jessicaywang.co/autumn",
+      link: "https://www.autumn.co/",
       footerText: "Product Engineering • Product Strategy",
     },
     {
       title: "Pinterest Case Study",
       description:
         "Ideated and designed a 'Discovery' feature for Pinterest maximizing engagement; received feedback from their Chief Product Officer",
-      // defaultImg: "card-02.png",
       link: "https://tinyurl.com/5heuy7zw",
       footerText: "Product Management • Product Strategy",
     },
@@ -26,7 +24,6 @@ const Projects: React.FC = () => {
       title: "Project Morrissette",
       description:
         "Platform connecting startups supported by accelerators & VC funds with students; led by Ivey School of Business & 2 Founders ",
-      // defaultImg: "card-03.png",
       link: "https://www.westerns4s.ca",
       footerText: "Launching Fall 2025 • See MVP",
     },
@@ -34,7 +31,6 @@ const Projects: React.FC = () => {
       title: "Next Den",
       description:
         "Full-stack rental property search platform engineered and deployed using Python-based analytics dashboard",
-      // defaultImg: "card-04.png",
       link: "https://github.com/RyanCasty/NextDen",
       footerText: "Software Development • Hack Western",
     },

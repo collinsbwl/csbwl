@@ -79,8 +79,8 @@ const AboutMe: React.FC = () => {
           </Box>
 
           <Text fontSize="sm">
-            Currently exploring <Em>Computer-Interaction Behaviour, {""}</Em>
-            <Em>System Architecture</Em>, and{" "}
+            Currently exploring <Em>Human-Computer Interaction, {""}</Em>
+            <Em>Chess</Em>, and{" "}
             <Link
               fontStyle="italic"
               href="https://research.contrary.com/company"
