@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
       description:
         "Worked as a Product Intern writing feature specs for an End-of-Life marketplace connecting service providers with customers",
       link: "https://www.autumn.co/",
-      footerText: "Quality Assurance • Product Strategy",
+      footerText: "Product Engineering • Product Strategy",
     },
     {
       title: "Pinterest Case Study",
