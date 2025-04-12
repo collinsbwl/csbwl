@@ -4,8 +4,7 @@ import AboutMe from "@/components/About";
 import Projects from "@/components/HighlightProj";
 import Awards from "@/components/Award";
 import Footer from "@/components/FooterBar";
-import Click from "components/ui/ClickSpark";
-
+import Rain from "@/animations/Rain";
 import Head from "next/head";
 
 export default function Page() {
@@ -16,22 +15,16 @@ export default function Page() {
         <meta name="description" content="portfolio" />
         <link rel="icon" href="me.jpeg" />
       </Head>
-      <Click
-        sparkColor="#fff"
-        sparkSize={10}
-        sparkRadius={15}
-        sparkCount={8}
-        duration={400}
-      >
-        <NavBar />
+      <Rain numberOfDrops={75} color="rgba(255, 255, 255, 0.6)" zIndex={999} />
 
-        <Container maxW="3xl" centerContent px={4} pt={20} pb={5} gap={6}>
-          <AboutMe />
-          <Projects />
-          <Awards />
-          <Footer />
-        </Container>
-      </Click>
+      <NavBar />
+
+      <Container maxW="3xl" centerContent px={4} pt={20} pb={5} gap={6}>
+        <AboutMe />
+        <Projects />
+        <Awards />
+        <Footer />
+      </Container>
     </ChakraProvider>
   );
 }

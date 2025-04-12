@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
   return (
     <Box w="full">
       <FadeIn delay={0.6}>
-        <Heading fontSize="lg" color="grey" fontWeight="bold" pb="10px">
+        <Heading fontSize="md" color="grey" fontWeight="bold" pb="10px">
           Highlights
         </Heading>
       </FadeIn>
