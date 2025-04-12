@@ -1,8 +1,7 @@
-import { Heading, Flex, Box, Link, Em, Text } from "@chakra-ui/react";
+import { Heading, Flex, Box, Link, Text } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdArrowOutward } from "react-icons/md";
 import { RiTwitterXFill } from "react-icons/ri";
-import { LiaExternalLinkAltSolid } from "react-icons/lia";
 
 import { FadeIn } from "animations/fade-in";
 
@@ -48,7 +47,7 @@ const AboutMe: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              University of Western Ontario
+              University of Western Ontario.
             </Link>
           </Text>
 
