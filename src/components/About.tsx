@@ -52,7 +52,7 @@ const AboutMe: React.FC = () => {
           </Text>
 
           <Text fontSize="md">
-            I'm passionate about what inspires me—people, travel, chess,
+            I&apos;m passionate about what inspires me—people, travel, chess,
             enjoying rainy days, and{" "}
             <Link
               fontWeight="light"
