@@ -1,6 +1,5 @@
 import { Flex, Box, Text, Heading } from "@chakra-ui/react";
 import { FadeIn } from "animations/fade-in";
-import { FaSortDown } from "react-icons/fa";
 
 const Award: React.FC = () => {
   return (
