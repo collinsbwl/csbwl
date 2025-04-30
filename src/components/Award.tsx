@@ -10,7 +10,7 @@ const Award: React.FC = () => {
         </Heading>
         <Box paddingLeft="4">
           <Text fontSize="sm">Continuing Admission Scholarships ($24,000)</Text>
-          <Text fontSize="sm">Westerm Distinction Scholarship ($2,500)</Text>
+          <Text fontSize="sm">Western Distinction Scholarship ($2,500)</Text>
           <Text fontSize="sm">
             1st Place - Bank of Montreal Tech Startup Advisory Case Competition
           </Text>
